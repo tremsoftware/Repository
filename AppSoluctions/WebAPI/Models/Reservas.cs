@@ -7,7 +7,7 @@ using System.Web;
 namespace WEBAPI.Models
 {
     public class Reservas
-    {[Key]
+    {   [Key]
         public int IdRes { get; set; }
         public int ClienteId { get; set; }
         public int UsuarioId { get; set; }

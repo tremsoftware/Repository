@@ -7,8 +7,7 @@ using System.Web;
 
 namespace WEBAPI.Models
 {
-    [Table("Clientes", Schema = "public")]
-    public class Clientes
+   public class Clientes
     {
         [Key]
         public int IdCli { get; set; }
