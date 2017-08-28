@@ -10,8 +10,7 @@ namespace WEBAPI.Models
     {
         [Key]
         public int IdSal { get; set; }
-        public string NomeSal { get; set; }
-        public Boolean reservadaSal { get; set; }
+        public Boolean ReservadaSal { get; set; }
         public Boolean AtivoSal { get; set; }
         public DateTime DataAluguelSal { get; set; }
         public int IdFunSal { get; set; }
