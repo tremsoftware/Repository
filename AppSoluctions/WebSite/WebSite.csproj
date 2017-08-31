@@ -84,9 +84,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="ScriptAPI\controller.js" />
-    <Content Include="ScriptAPI\module.js" />
-    <Content Include="ScriptAPI\service.js" />
+    <Content Include="app\Controllers\controller.js" />
+    <Content Include="app\Modules\module.js" />
+    <Content Include="app\Services\service.js" />
     <Content Include="Scripts\version.json" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
