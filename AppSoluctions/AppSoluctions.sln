@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{B79AF161-DF7A-4AB9-B858-16724F9CA1FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App.WebAPI", "App.WebAPI", "{22FF9AD5-868D-42F4-977A-58C484299560}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPage", "WebPage", "{5B5619D7-C8C8-4D9F-A8B5-28FAFA1C3833}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App.WebPage", "App.WebPage", "{5B5619D7-C8C8-4D9F-A8B5-28FAFA1C3833}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "WebSite\WebSite.csproj", "{D1644063-4F68-415F-B0CD-E2FDC1A1D4F9}"
 EndProject
