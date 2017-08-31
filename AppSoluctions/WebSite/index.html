@@ -1,25 +1,37 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <title>Projeto - Trem software </title>
+    <meta charset="UTF-8">
+    <title>Consumo da API</title>
+    <!--Css-->
     <link href="Content/bootstrap.css" rel="stylesheet" />
-</head>
-<body class="container" ng-app="">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar" href="#">
-            <font>
-                <font>Trem Software</font>
-            </font>
-        </a>
-    </nav>
-    <h2>Olá Mundo</h2>
-    <input type="text" ng-model="Nome" class="form-control"/>
-    {{Nome}}
-
-    <script src="Scripts/angular-route.js"></script>
+    <!--Angular-->
     <script src="Scripts/angular.min.js"></script>
-    <script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+
+    <script src="ScriptAPI/module.js"></script>
+    <!--Serviços-->
+    <script src="ScriptAPI/service.js"></script>
+
+    <!--Controllers-->
+    <script src="ScriptAPI/controller.js"></script>
+
+</head>
+<body  class="container">
+    <div ng-app="APIModule" ng-controller="APIController">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Login</th>
+                <th>Senha</th>
+                <th>Data de Cadastro</th>
+            </tr>
+            <tr ng-repeat="usuario in usuario">
+                <td>{{usuario.IdUsu}}</td>
+                <td>{{usuario.LoginUsu}}</td>
+                <td>{{usuario.SenhaUsu}}</td>
+                <td>{{usuario.DataCadUsu}}</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
