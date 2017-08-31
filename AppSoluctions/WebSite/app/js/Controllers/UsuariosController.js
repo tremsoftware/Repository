@@ -1,8 +1,8 @@
-﻿app.controller('APIController', function ($scope, APIService) {
+﻿app.controller('UsuariosController', function ($scope, UsuariosService) {
     getAll();
 
     function getAll() {
-        var servCall = APIService.getUsuarios();
+        var servCall = UsuariosService.getUsuarios();
         servCall.then(function (d) {
             $scope.usuarios = d.data;
         }, function (error) {
