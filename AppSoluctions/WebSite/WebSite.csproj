@@ -87,6 +87,12 @@
     <Content Include="app\Controllers\controller.js" />
     <Content Include="app\Modules\module.js" />
     <Content Include="app\Services\service.js" />
+    <Content Include="app\view\frmCadClientes.html" />
+    <Content Include="app\view\frmCadEmpresas.html" />
+    <Content Include="app\view\frmCadFuncionarios.html" />
+    <Content Include="app\view\frmCadReservas.html" />
+    <Content Include="app\view\frmCadSalas.html" />
+    <Content Include="app\view\frmCadUsuarios.html" />
     <Content Include="Scripts\version.json" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
