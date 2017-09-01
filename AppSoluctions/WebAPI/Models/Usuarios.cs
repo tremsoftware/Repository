@@ -13,6 +13,6 @@ namespace WEBAPI.Models
         public int IdUsu { get; set; }
         public string LoginUsu { get; set; }
         public string SenhaUsu { get; set; }
-        public DateTime DataCadUsu { get; set; }
+        public DateTime? DataCadUsu { get; set; }
     }
 }

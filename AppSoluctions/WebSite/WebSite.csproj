@@ -83,6 +83,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\view\Shared\_Layout.cshtml" />
     <None Include="packages.config" />
     <Content Include="app\js\Controllers\UsuariosController.js" />
     <Content Include="app\js\Modules\UsuariosModule.js" />

@@ -18,12 +18,14 @@ namespace WebAPI.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/Usuarios
+        [Route("api/usuarios")]
         public IQueryable<Usuarios> GetUsuarios()
         {
             return db.Usuarios;
         }
 
         // GET: api/Usuarios/5
+        [Route("api/usuarios/{id:int}")]
         [ResponseType(typeof(Usuarios))]
         public IHttpActionResult GetUsuarios(int id)
         {
